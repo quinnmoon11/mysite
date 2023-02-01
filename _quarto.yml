@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "ZOOL 710"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Research
+
+
+format:
+  html:
+    theme: slate
+    css: styles.css
+    toc: true
+
+
+
